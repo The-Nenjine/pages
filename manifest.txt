@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-13 06:31:55",modified="2024-09-13 06:47:08",revision=3]]
+--[[pod_format="raw",created="2024-09-13 06:31:55",modified="2024-09-13 06:58:57",revision=6]]
 0
 Welcome.txt
 > API
@@ -11,3 +11,89 @@ API/Drawing/circ.txt
 API/Drawing/circfill.txt
 API/Drawing/clip.txt
 API/Drawing/cls.txt
+API/Drawing/color.txt
+API/Drawing/fillp.txt
+API/Drawing/get_spr.txt
+API/Drawing/line.txt
+API/Drawing/oval.txt
+API/Drawing/ovalfill.txt
+API/Drawing/pal.txt
+API/Drawing/palt.txt
+API/Drawing/pget.txt
+API/Drawing/print.txt
+API/Drawing/pset.txt
+API/Drawing/rect.txt
+API/Drawing/rectfill.txt
+API/Drawing/set_spr.txt
+API/Drawing/sget.txt
+API/Drawing/spr.txt
+API/Drawing/sset.txt
+API/Drawing/sspr.txt
+> API/Files
+API/Files/cd.txt
+API/Files/cp.txt
+API/Files/fetch.txt
+API/Files/fstat.txt
+API/Files/fullpath.txt
+API/Files/include.txt
+API/Files/ls.txt
+API/Files/mkdir.txt
+API/Files/mv.txt
+API/Files/pwd.txt
+API/Files/rm.txt
+API/Files/store.txt
+> API/Input
+API/Input/btn.txt
+API/Input/btnp.txt
+API/Input/cursor.txt
+API/Input/key.txt
+API/Input/keyp.txt
+API/Input/mouse.txt
+API/Input/mouselock.txt
+API/Input/peektext.txt
+API/Input/readtext.txt
+> API/Map
+API/Map/fget.txt
+API/Map/fset.txt
+API/Map/map.txt
+API/Map/mget.txt
+API/Map/mset.txt
+API/Map/tline3d.txt
+> API/Memory
+API/Memory/memcpy.txt
+API/Memory/memset.txt
+API/Memory/peek.txt
+API/Memory/poke.txt
+> API/Pod
+API/Pod/pod.txt
+API/Pod/unpod.txt
+> API/Strings
+API/Strings/chr.txt
+API/Strings/ord.txt
+API/Strings/split.txt
+API/Strings/sub.txt
+API/Strings/type.txt
+> API/System
+API/System/assert.txt
+API/System/date.txt
+API/System/env.txt
+API/System/printh.txt
+API/System/stop.txt
+API/System/time.txt
+> API/Tables
+API/Tables/add.txt
+API/Tables/all.txt
+API/Tables/count.txt
+API/Tables/del.txt
+API/Tables/deli.txt
+API/Tables/foreach.txt
+API/Tables/pairs.txt
+> API/Windows
+API/Windows/get_display.txt
+API/Windows/get_draw_target.txt
+API/Windows/set_draw_target.txt
+API/Windows/vid.txt
+API/Windows/window.txt
+> Picotron
+Picotron/shortcuts.txt
+Picotron/specs.txt
