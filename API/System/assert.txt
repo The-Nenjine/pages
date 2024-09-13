@@ -1,0 +1,10 @@
+--[[pod_format="raw",created="2024-09-11 06:46:57",modified="2024-09-11 06:50:53",revision=7]]
+> assert(condition, str)
+
+A debugging tool that stops the program 
+if 'condition' is false, and then prints 
+'str' to the screen.
+
+Since nil is falsey in lua, assert can be 
+used to safely check/crash if a variable 
+has been given a value or not.

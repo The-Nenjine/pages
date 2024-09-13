@@ -1,0 +1,107 @@
+--[[pod_format="raw",created="2024-09-11 23:55:25",modified="2024-09-12 06:07:55",revision=48]]
+> window(width, height, attribs)
+> window(attribs)
+
+Creates a window and sets the window's 
+attributes.
+
+'width' and 'height' are the dimensions 
+of the window.
+
+'attribs' is a table of attributes to 
+assign to the created window.
+
+
+The following are the attributes that can 
+be given to a window.
+
+	- x
+The x position to create the window at.
+
+	- y
+The y position to create the window at.
+
+	- width
+The width of the window (not including 
+the frame).
+
+	- height			
+The height of the window (not including 
+the frame and title bar).
+
+	- title			
+The text displayed on the title bar.
+
+	- pauseable		
+False to turn off the app menu that 
+appears when you press enter. Defaults to 
+false.
+
+	- tabbed			
+True to open in a tabbed workspace (like 
+the code editor).
+
+	- has_frame
+If false, removes the frame and title bar. 
+This also stops you from moving or 
+resizing the frame, makeing the moveable 
+and resizeable attributes irelevant.
+
+	- moveable
+Allows you to move the window by 
+dragging the title bar. Defaults to true.
+
+	- resizeable
+Allows you to resize the window by 
+dragging the corners of the frame. 
+Defaults to true.
+	
+	- wallpaper
+Replaces the current wallpaper with the 
+window. Will make the window frameless, 
+immoveable, unclickable and will draw 
+colour 16 anywhere the window is not.
+	
+	- autoclose
+Close window when not in focus or escape 
+is pressed.
+	
+	- z	
+What height to create the window at. 
+Defaults to 0, wallpaper is -1000.	
+	
+	- cursor
+Does not seem to currently work.
+
+	- workspace
+Which workspace to open in. Useful for 
+creating windowed apps that open in other 
+fullscreen workspaces.	
+
+
+--
+N.b.
+Cursor doesn't seem to currently work. 
+Zep's Manual currently states that 
+system curosrs are named and can be 
+requested using the following strings:
+
+	- pointer
+Hand with a finger that presses down 
+while mouse button is pressed.
+
+	- grab
+Open hand that changes into grabbing pose 
+while mouse button is pressed.
+
+
+	- dial
+Hand in a dial-twirling pose that 
+disappears while mouse button is held 
+down.
+
+	- crosshair
+The manual only names this one. 
+Presumably, it is the cursor when 
+selecting a region to take a screen shot 
+of using capture.		

@@ -1,0 +1,32 @@
+--[[pod_format="raw",created="2024-08-29 20:34:15",modified="2024-08-29 21:59:34",revision=12]]
+> palt(c, [t])
+
+Sets a colour as transparent or opaque.
+
+'c' is the colour to change the 
+transparency of. 
+
+'t' is whether to set the colour as 
+transparent.
+
+If 'c' is the only argument, it is 
+treated as a bitfield and sets all 64 
+transparency values.
+
+Calling palt without any arguments sets 
+all colours to opaque except for colour 0.
+
+Transparency is observed by the following
+functions:
+
+> spr()
+> sspr()
+> map()
+> tline3d()
+
+--
+N.b. Does this set transparency on the 
+draw palette and not the display palette, 
+right? Could it be a transparency palette
+that sits before the draw and display 
+palletes...

@@ -1,0 +1,45 @@
+--[[pod_format="raw",created="2024-08-29 20:39:29",modified="2024-09-04 21:24:11",revision=21]]
+> pod(val, [flags], [metadata])
+
+Creates a POD in a specified format, with 
+metadata.
+
+Returns a Picotron Object Data (POD) 
+string.
+
+'val' is the data to encode.
+
+'flags' determins the format in which to 
+encode the data, which defaults to 0x0.
+
+'metadata' is an optional value that is 
+encoded into the string and stores 
+additional information about the pod.
+
+pod() will return nill if 'val' contains 
+functions, circular references and other 
+non-encodable references.
+
+The following flags are available:
+
+	0x0		The default behaviour.
+	0x1		pxu: Compressed RLE-style.
+	0x2		lz4: Binary compression pass 
+			(dictionary matching)
+	0x4		base64: A text friendly format.
+
+As a bitfield argument, 'flags' can be 
+any combination of the available encoding 
+types. For instance, 0x3 compresses 
+twice, once with pxu and then with lz4, 
+or 0x7 which compresses with pxu and lz4 
+and then returns the pod in a base64, 
+plain text readable format.
+
+'metadata' is returned as a second value, 
+and can be any lua object.
+
+
+--
+N.b.
+Is flag 0x0 just plain text?

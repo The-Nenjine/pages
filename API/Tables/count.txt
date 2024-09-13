@@ -1,0 +1,11 @@
+--[[pod_format="raw",created="2024-08-29 20:39:00",modified="2024-09-01 06:35:44",revision=2]]
+> count(tbl, 'val')
+
+Counts the number of instances of a value in the table.
+
+'tbl' is the table to check.
+
+'val' is the value to count instances of.
+
+If 'val' is not provided, count returns 
+its length.

@@ -1,0 +1,13 @@
+--[[pod_format="raw",created="2024-09-11 06:30:55",modified="2024-09-11 06:34:19",revision=5]]
+> printh(str)
+
+Prints a string to the host OS's console.
+
+printh() will convert non string values 
+to strings similar to print().
+
+
+--
+N.b.
+How to setup host OS for displaying the 
+console.

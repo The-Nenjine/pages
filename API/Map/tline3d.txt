@@ -1,0 +1,43 @@
+--[[pod_format="raw",created="2024-08-29 20:36:20",modified="2024-08-30 07:41:19",revision=35]]
+> tline3d(src, x1, y1, x2, y2, u1, 
+>  v1, u2, v2, w1, w2, [flags])
+
+Draw a textured line from ('x1' ,'y1') 
+to ('x2', 'y2'), sampling colour values 
+from userdata 'src'. When 'src' is type 
+u8, it is considered to be a single 
+texture image, and the coordinates are 
+in pixels. When 'src' is type i16 it is 
+considered to be a map, and coordinates 
+are in tiles. When 'src' is not given, 
+the current map is used.
+
+Both the dimensions of the map and the 
+tile size must be powers of 2.
+
+'u1', 'v1', 'u2', 'v2' are coordinates 
+to sample from, given in pixels for 
+sprites, or tiles for maps. Colour values 
+are sampled from the sprite present at 
+each map tile.
+
+'w1', 'w2' are used to control 
+perspective and mean 1/z0 and 1/z1. 
+Default values are 1,1 (gives a linear 
+interpolation between uv1 and uv2).
+
+Experimental flags useful for polygon 
+rendering / rotated sprites: 0x100 to 
+skip drawing the last pixel, 0x200 to 
+perform sub-pixel texture coordinate 
+adjustment.
+
+Unlike map() or PICO-8's tline, tline3d() 
+does not support empty tiles: pixels from 
+sprite 0 are always drawn, and there is 
+no 'p8layers' bitfield parameter.
+
+
+--
+N.b. Need to verify that this is correct
+as I have no idea if this is correct.

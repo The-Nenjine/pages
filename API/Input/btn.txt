@@ -1,0 +1,29 @@
+--[[pod_format="raw",created="2024-08-25 05:15:02",modified="2024-08-29 06:48:40",revision=64]]
+> btn([b], [pl])
+
+Returns the state of button 'b' for 
+player 'pl'. Buttons return boolean, 
+and sticks return between 1..255.
+
+'pl' defaults to 0, which is player 1.
+
+Button assignments:
+	0	=	Stick 1 Left
+	1	=	Stick 1 Right
+	2	=	Stick 1 Up
+	3	=	Stick 1 Down
+	4	=	O button
+	5	=	X button
+	6	=	Menu
+	7	=	Reserved
+	8	=	Stick 2 Left
+	9	=	Stick 2 Right
+	11	=	Stick 2 Up
+	12	=	Stick 2 Down
+	13	=	Unnamed
+	14	=	Unnamed
+	15	=	SL
+	16	=	SR
+
+--
+N.b. Zep's manual misalocates 4..12

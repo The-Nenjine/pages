@@ -1,0 +1,10 @@
+--[[pod_format="raw",created="2024-08-29 20:36:13",modified="2024-08-29 23:48:47",revision=2]]
+> mset(x, y, val)
+
+Sets the sprite at position 'x', 'y' of 
+the map to 'val'.
+
+'val' should be a sprite index as an 
+integer.
+
+PICO-8 compatible.

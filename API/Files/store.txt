@@ -1,0 +1,13 @@
+--[[pod_format="raw",created="2024-08-25 07:00:06",modified="2024-08-29 06:48:54",revision=44]]
+> store(path, obj, [metadata])
+
+Stores a lua object as a file.
+
+When storing data that should persist
+between launches, the data should be
+stored in /appdata, within an 
+appropriately named folder. 
+
+'metadata' should be given as a table. 
+Data given is added to the file metadata 
+without overwriting data.

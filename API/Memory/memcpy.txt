@@ -1,0 +1,22 @@
+--[[pod_format="raw",created="2024-08-29 20:43:19",modified="2024-09-13 00:29:32",revision=7]]
+> memcpy(dest, src, len)
+
+Copies data from ram from one place to 
+another.
+
+'dest' is the starting address to copy 
+to.
+
+'src' is the starting address to copy 
+from.
+
+'len' is the number of bytes to copy.
+
+Sections can overlap, but makes the 
+function run at a higher cost to cpu.
+
+
+--
+N.b.
+What is base ram, and how is it different 
+from ram?

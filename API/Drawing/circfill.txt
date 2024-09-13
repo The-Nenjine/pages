@@ -1,0 +1,7 @@
+--[[pod_format="raw",created="2024-08-29 20:33:15",modified="2024-08-29 21:03:52",revision=2]]
+> circfill(x, y, r, [col])
+
+Draws a solid circle at 'x', 'y' with a 
+radius of 'r'.
+
+If 'r' is negative, no circle is drawn.

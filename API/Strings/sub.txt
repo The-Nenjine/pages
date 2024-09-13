@@ -1,0 +1,19 @@
+--[[pod_format="raw",created="2024-08-30 21:24:29",modified="2024-08-30 21:28:03",revision=3]]
+> sub(str, pos1, [pos2])
+
+Copy a section from a given string, from 
+'pos1' to 'pos2'.
+
+Returns a string
+
+'pos1' is the starting character to copy 
+from.
+
+'pos2' is the number of characters to 
+copy.
+
+If 'pos2' is not given, the rest of the 
+string is returned. 
+
+If 'pos2' is not a number, a single 
+character is returned.

@@ -1,0 +1,16 @@
+--[[pod_format="raw",created="2024-08-29 20:36:44",modified="2024-08-30 07:54:01",revision=9]]
+> music(n, [fade], [ch])
+
+Plays music.
+
+'n' is the pattern to start playing from.
+
+'fade' is the length in milliseconds in 
+which to fade the given music.
+
+'ch' is a bitfield that specifies which
+channels are reserved for music only.
+
+Reserved channels can still be used to 
+play sound effects, but must be 
+specifically requested by sfx().

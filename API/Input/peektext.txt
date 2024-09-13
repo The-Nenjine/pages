@@ -1,0 +1,8 @@
+--[[pod_format="raw",created="2024-08-25 07:00:23",modified="2024-09-11 05:39:11",revision=17]]
+> peektext()
+
+Returns whether there is data avaliable 
+to be read from the host OS's text 
+entry queue.
+
+Returns either true, false or nil.

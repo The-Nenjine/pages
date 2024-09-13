@@ -1,0 +1,11 @@
+--[[pod_format="raw",created="2024-08-29 20:35:10",modified="2024-08-29 23:13:03",revision=6]]
+> get_spr(index)
+
+Get the data of a given sprite index.
+
+Returns a type u8 2D userdata object.
+
+'index' should be between 0 and 16383.
+
+When a cart is run, files gfx/0..63.gfx 
+are loaded if they exist.

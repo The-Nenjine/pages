@@ -1,0 +1,49 @@
+--[[pod_format="raw",created="2024-08-26 05:30:49",modified="2024-08-29 06:41:46",revision=181]]
+Here is a list of the known shortcuts 
+for Picotron and its default programs:
+
+	- Picotron:
+ctrl + Q			 Fast quit ^1
+alt + f4			 Fast quit
+ctrl + R			 Run cart in ram (PWC)
+ctrl + P			 Open tooltray ^2
+ctrl + O			 Open file ^3
+ctrl + S			 Save file ^4
+ctrl + M			 Mute Picotron
+ctrl + 1			 Hide toolbar ^5
+ctrl + 2			 Toggle show_infobar ^6
+ctrl + 6			 Capture screenshot
+ctrl + shft + 6	 Screenshot from region
+ctrl + 7			 Capture label for cart
+ctrl + 8			 Capture gif
+ctrl + shft + 8	 Gif from region
+ctrl + 9			 Stop gif recording
+ctrl + 0			 Capture audio ^7
+lctrl + rctrl		 Safe mode on startup
+	
+	- Code:
+ctrl + D			 Duplicate line
+ctrl + B			 Toggle comment
+ctrl + W			 Goto start of ln
+ctrl + F			 Find in file
+ctrl + L			 Goto line
+
+--
+Footnotes:
+1.	Needs to be turned on in settings.
+2.	Is commented out in wm at ln ~2020
+3.	Sends a 'menu_action' message to the
+	active window from wm, so is tagged
+	as Picotron.
+4.	Checks if the current program is 
+	loaded into 'ram/cart' and saves the 
+	cart, if not sends a 'save_file' 
+	message to the currently active 
+	program.
+5.	Currently bugged in full screen 
+	programs.
+6.	Unknown if this actually does 
+	anything.
+7.	Picotron doesn't currently capture
+	audio, but the shortcut is setup for
+	when it will.

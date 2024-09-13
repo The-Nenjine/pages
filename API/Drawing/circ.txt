@@ -1,0 +1,7 @@
+--[[pod_format="raw",created="2024-08-29 20:33:06",modified="2024-08-29 21:03:26",revision=4]]
+> circ(x, y, r, [col])
+
+Draws the outline of a circle at 'x', 'y' 
+with a radius of 'r'.
+
+If 'r' is negative, no circle is drawn.

@@ -1,0 +1,7 @@
+--[[pod_format="raw",created="2024-08-29 20:38:49",modified="2024-09-01 00:38:30",revision=6]]
+> del(tbl, val)
+
+Delete the first instance of 'val' from 
+'tbl', shifting the rest of the table 
+left to close the hole where the value 
+was deleted.

@@ -1,0 +1,5 @@
+--[[pod_format="raw",created="2024-08-29 20:33:32",modified="2024-08-29 21:06:43",revision=4]]
+> ovalfill(x1, y1, x2, y2, [col])
+
+Draw a symetrical solid oval (ellipse) 
+within the given rectangle. 

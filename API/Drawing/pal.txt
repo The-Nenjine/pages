@@ -1,0 +1,16 @@
+--[[pod_format="raw",created="2024-08-29 20:34:04",modified="2024-08-29 21:19:38",revision=6]]
+> pal(c1, c2, [p])
+
+Swaps c1 for c2 on a given palette.
+
+'p' defaults to 0.
+
+Palette 0 remaps colours on the draw 
+palette, to affect draw what colours 
+draw functions use. This does not
+affect anything that has already been 
+drawn to the screen.
+
+Palette 1 remaps colours on the display 
+palette, affecting anything drawn that 
+hasn't yet been displayed on the screen.

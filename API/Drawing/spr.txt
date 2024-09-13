@@ -1,0 +1,17 @@
+--[[pod_format="raw",created="2024-08-29 20:34:42",modified="2024-08-29 21:37:50",revision=9]]
+> spr(s, x, y, [h_flip], [v_flip])
+
+Draws sprite 's' at 'x', 'y'.
+
+'s' can be type u8 userdata or a sprite 
+index. Values above 255 roll over to 
+other gfx files. I.e.
+
+0..255			gfx/0.gfx
+256..511		gfx/1.gfx
+512..767		gfx/2.gfx
+
+'h_flip' flips the sprite horizontally.
+'v_flip' flips the sprite vertically.
+
+Colour 0 is drawn as transparent by default.

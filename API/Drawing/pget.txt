@@ -1,0 +1,8 @@
+--[[pod_format="raw",created="2024-08-25 01:32:37",modified="2024-08-29 06:51:05",revision=13]]
+> pget(x, y)
+
+Returns the colour of a pixel on the 
+screen at (x, y).
+
+When x and y are out of bounds, pget 
+returns 0.

@@ -1,0 +1,32 @@
+--[[pod_format="raw",created="2024-08-29 20:40:53",modified="2024-09-11 06:15:50",revision=16]]
+> fstat(path)
+
+Finds data about a file system object.
+
+Returns either "file" or "folder", and 
+then the size of the object.
+
+Folders will always return a size of 0.
+
+For example:
+
+> t, s = fstat("/system")
+> print(t)
+> print(s)
+
+Will print:
+
+> folder
+> 0
+
+See pwd() for more infomation on how 
+paths are formatted to be relative or 
+absolute.
+
+
+--
+N.b.
+Zep's manual says that there should be a 
+third value returned; a string which 
+gives the full path of the file being 
+analyzed.

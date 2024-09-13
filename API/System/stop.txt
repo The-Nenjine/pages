@@ -1,0 +1,5 @@
+--[[pod_format="raw",created="2024-09-11 06:45:34",modified="2024-09-11 06:46:15",revision=2]]
+> stop(str)
+
+Stops the process and optionally prints a 
+string to the console.

@@ -1,0 +1,16 @@
+--[[pod_format="raw",created="2024-09-11 06:51:05",modified="2024-09-11 06:53:39",revision=7]]
+> time()
+> t()
+
+Returns the number of seconds since the 
+process was started.
+
+This is not real world time, but is the 
+number of times _update is called.
+
+
+--
+N.b.
+Zep says it's based on the number of 
+times _update60 is called, but picotron 
+doesn't have _update60, right?

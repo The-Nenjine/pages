@@ -1,0 +1,11 @@
+--[[pod_format="raw",created="2024-08-29 20:39:10",modified="2024-09-11 05:43:01",revision=7]]
+> foreach(tbl, func)
+
+For each item in 'tbl' call a function 
+with a single argument, calling the 
+argument with the table value as the 
+argument.
+
+The following prints "1", "2" and "3".
+
+> foreach({1, 2, 3}, print)

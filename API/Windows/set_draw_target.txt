@@ -1,0 +1,17 @@
+--[[pod_format="raw",created="2024-09-11 20:38:37",modified="2024-09-11 23:53:43",revision=4]]
+> set_draw_target([ud])
+
+Set the draw target to 'ud'.
+
+'ud' must be a 2D u8 userdata.
+
+When no userdata is given, the target is 
+set to the current display.
+
+
+--
+N.b.
+Is the display the program surface or the 
+screen?
+Does this mean you could draw to a 
+different workspace?

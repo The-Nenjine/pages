@@ -1,0 +1,22 @@
+--[[pod_format="raw",created="2024-08-29 20:34:52",modified="2024-08-29 23:08:49",revision=22]]
+> sspr(s, sx, sy, sw, sh, dx, dy, 
+>  [dw, dh], [h_flip], [v_flip])
+
+Stretch a source rectangle of sprite 's' 
+('sx', 'sy', 'sw', 'sh') to a 
+destination rectangle on the screen 
+('dx', 'dy', 'dw', 'dh'). In both cases, 
+the x and y values are coordinates (in 
+pixels) of the rectangle's top left 
+corner, with a width of 'w', 'h'.
+
+'s' can be either a userdata (type "u8") 
+or the sprite index.
+
+Colour 0 drawn as transparent by default 
+(see palt())
+
+'dw', 'dh' defaults to 'sw', 'sh'.
+
+When 'h_flip' is true, flip horizontally. 
+When 'v_flip' is true, flip vertically.

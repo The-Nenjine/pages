@@ -1,0 +1,14 @@
+--[[pod_format="raw",created="2024-09-12 06:16:44",modified="2024-09-12 06:21:05",revision=14]]
+               - Specs -
+
+--
+N.b.
+Incomplete page, here are my notes from 
+around the documentation for what the 
+specs are:
+
+	- Pictron:
+Unlimited drive space.
+
+	- Per process:
+16mb ram.

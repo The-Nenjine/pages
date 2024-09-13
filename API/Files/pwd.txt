@@ -1,0 +1,13 @@
+--[[pod_format="raw",created="2024-08-29 20:40:37",modified="2024-09-11 05:54:26",revision=9]]
+> pwd()
+
+Returns the present working directory.
+
+When calling functions that require a 
+path, relative paths (ones that do not 
+start with '/') resolve relative to this 
+path).
+
+When calling functions that require a 
+path, paths that start with '/' are 
+expected to be full paths.

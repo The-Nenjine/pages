@@ -1,0 +1,21 @@
+--[[pod_format="raw",created="2024-08-29 20:39:38",modified="2024-09-04 21:22:35",revision=11]]
+> unpod(str)
+
+Decodes a POD string, automatically 
+detecting the encoding method.
+
+Returns the decoded value, and the 
+metadata as a second result.
+
+> str = pod({4,5,6}, 0, {
+> 	desc = "some text"
+> })
+> 
+> -- Returns content and metadata
+> c,m = unpod(str)
+> 
+> --  Prints "some text"
+> ?m.desc
+> 
+> -- Prints "4"
+> ?c[1]

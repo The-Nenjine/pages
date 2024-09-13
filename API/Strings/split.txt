@@ -1,0 +1,17 @@
+--[[pod_format="raw",created="2024-08-30 21:28:58",modified="2024-08-30 21:33:32",revision=4]]
+> split(spr, [sep], [convert])
+
+Splits a string, breaking at the given 
+'sep'.
+
+Returns a table of strings and/or 
+integers.
+
+'spr' is the string you want to break up.
+
+'sep' is the string you want to remove 
+and split 'spr' at. This defaults to ",".
+
+'convert' is wether to convert string 
+numbers ("1", "2", etc) into integers. 
+This defaults to ture.

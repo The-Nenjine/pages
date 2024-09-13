@@ -1,0 +1,13 @@
+--[[pod_format="raw",created="2024-09-11 20:35:45",modified="2024-09-11 20:38:16",revision=1]]
+> get_display()
+
+Gets the current video display.
+
+Returns a 2D u8 userdata.
+
+To resize use window().
+
+
+--
+N.b.
+Is this the program surface?

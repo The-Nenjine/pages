@@ -1,0 +1,13 @@
+--[[pod_format="raw",created="2024-08-29 20:33:39",modified="2024-08-29 21:10:32",revision=6]]
+> line(x1, y1, [x2, y2, [col]])
+
+Draws a line between the two given 
+positions.
+
+If 'x2' and 'y2' are not given, the end 
+of the last line is used as a starting 
+point.
+
+If called without any arguments the next 
+call of line with only one point speficied 
+will only set the starting point.

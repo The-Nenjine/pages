@@ -1,0 +1,19 @@
+--[[pod_format="raw",created="2024-08-30 08:06:59",modified="2024-08-30 08:13:38",revision=14]]
+> ord(str, [index], [count])
+
+Convert one or more characters from 
+a string to their ordinal character codes.
+
+Returns a string, a table for multiple 
+characters, or nil if trying to return a 
+value outside of the string.
+
+'str' is a string.
+
+'index' is the character to start from.
+
+'count' is the number of characters to 
+convert.
+
+--
+N.b. Does it return a table?

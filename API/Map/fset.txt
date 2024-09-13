@@ -1,0 +1,16 @@
+--[[pod_format="raw",created="2024-08-25 01:45:25",modified="2024-08-29 06:43:11",revision=34]]
+> fset(n, [f], val)
+
+Sets the value of 'n' sprite's 'f' flag.
+
+'f' is the flag index, between 0..7.
+
+The initial state of flags 0..7 are
+settable in the sprite editor, so can be 
+used to create custom sprite attributes. 
+It is also possible to draw only a 
+subset of map tiles by providing a mask 
+in map().
+
+When 'f' if is omitted all flags are set 
+with a single bitfield.

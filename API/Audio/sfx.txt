@@ -1,0 +1,19 @@
+--[[pod_format="raw",created="2024-08-29 20:36:38",modified="2024-08-30 07:46:29",revision=3]]
+> sfx(n, [ch], [offset], [length])
+
+Plays a sfx.
+
+'n' shoud be a sfx 0..63.
+
+'ch' is a channel and should be 0..15.
+
+'offset' is a note offset 0..63 notes.
+
+'length' should be a length for the 
+notes.
+
+If 'n' is -1 then sound on the given 
+channel will stop playing.
+
+If 'ch' is -1 then an avaliable channel 
+will be automatically selected for use.

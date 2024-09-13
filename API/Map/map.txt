@@ -1,0 +1,46 @@
+--[[pod_format="raw",created="2024-08-25 06:44:42",modified="2024-08-29 23:44:08",revision=35]]
+> map([src], tx, ty, [sx, sy], [tiles_x, 
+>  tiles_y], [flags], [tw, th])
+
+Draw a section of the map from either 
+from userdata src, or from the currently 
+loaded working map.
+
+'src' is userdata, and is ommited to be 
+compatible PICO-8.
+
+'tx', 'ty' is the starting tile on the 
+map.
+
+'sx', 'sy' is the position on the screen 
+in pixels to draw the map.
+
+'tiles_x', 'tiles_y' specify how many 
+tiles wide and high are drawn from the 
+map.
+
+'flags' is a bitfield. When given, only 
+sprites with matching sprite flags are 
+drawn.
+
+'tw', 'th' specify in pxels how wide and 
+high each tile should be when draw. 'tw'
+and 'th' are found at 0x550e and 0x550f
+and are initalised to be the dimensions 
+of sprite 0 when the program starts.
+
+You can use a single layer from a 
+map file:
+
+> data = fetch("map/0.map")
+> map(data[2].bmp)
+
+Only fetch the map data once.
+
+Sprite 0 is not drawn by default, so that 
+sparse maps do not cost much cpu as only 
+the non-zero tiles are expensive. To draw 
+every tile value including 0, set bit 0x8 
+at 0x5f36:
+
+> poke(0x5f36), peek(0x5f36) | 0x8

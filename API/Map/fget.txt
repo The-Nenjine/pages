@@ -1,0 +1,10 @@
+--[[pod_format="raw",created="2024-08-25 01:42:32",modified="2024-08-29 06:43:26",revision=47]]
+> fget(n, [f])
+
+Returns the value of 'n' sprite's 'f' 
+flag.
+
+'f' is the flag index, between 0..7.
+
+When 'f' is omitted all flags are 
+retrieved as a single bitfield.

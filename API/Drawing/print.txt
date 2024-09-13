@@ -1,0 +1,21 @@
+--[[pod_format="raw",created="2024-08-29 20:28:49",modified="2024-08-29 20:57:05",revision=8]]
+> print(str, [x, y, [col]])
+
+Prints 'str' to the screen and optionally 
+sets the draw colour.
+
+Retruns the right most x position that
+occurred while printing.
+
+When x, y are not specified, a newline is 
+automatically appended. If called to the
+console, printing below y 122 will cause
+the console to scroll. This can be 
+disabled with the following code:
+
+> poke(0x5f36,0x40)
+
+? can be used to call print without 
+brackets:
+
+> ?"Hello World!"

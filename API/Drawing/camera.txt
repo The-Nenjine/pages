@@ -1,0 +1,7 @@
+--[[pod_format="raw",created="2024-08-29 20:32:56",modified="2024-08-29 21:01:50",revision=2]]
+> camera([x, y])
+
+Sets a screen offset of -'x' and -'y' 
+for all drawing operations.
+
+Call without any arguments to reset.

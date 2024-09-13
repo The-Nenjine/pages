@@ -1,0 +1,7 @@
+--[[pod_format="raw",created="2024-09-11 23:53:57",modified="2024-09-11 23:54:59",revision=2]]
+> get_draw_target()
+
+Gets the userdata that the program is 
+drawing to.
+
+Returns a 2D u8 userdata.

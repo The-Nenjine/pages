@@ -1,0 +1,12 @@
+--[[pod_format="raw",created="2024-08-25 07:03:32",modified="2024-08-29 06:44:48",revision=14]]
+> readtext([clear])
+
+Returns the first string in the host 
+OS's text entry queue.
+
+This consumes the data from the queue,
+so it cannot be read from another 
+program.
+
+When 'clear' is true, the rest of the 
+queue is discarded.

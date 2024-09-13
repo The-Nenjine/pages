@@ -1,0 +1,10 @@
+--[[pod_format="raw",created="2024-08-25 04:58:56",modified="2024-08-29 06:47:44",revision=37]]
+> cursor(x, y, [col])
+
+Sets the cursor position.
+If 'col' is specified, also sets the 
+current colour.
+
+--
+N.b. is this the mouse cursor or the 
+text cursor?

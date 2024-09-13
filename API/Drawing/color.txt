@@ -1,0 +1,8 @@
+--[[pod_format="raw",created="2024-08-29 20:32:15",modified="2024-08-29 20:59:00",revision=5]]
+> color([col])
+
+Set the current colour to be used by 
+drawing functions. 
+
+If 'col' is not specified, the current 
+colour is set to 6.

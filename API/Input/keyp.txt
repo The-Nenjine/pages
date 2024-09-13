@@ -1,0 +1,25 @@
+--[[pod_format="raw",created="2024-08-25 06:53:43",modified="2024-08-29 06:46:45",revision=13]]
+> keyp(k, [raw])
+
+Returns if the key 'k' has been pressed
+this frame, or is repeating.
+
+The name of each 'k' is the same as the 
+character is produces on a US keyboard, 
+with exceptions of a few keys:
+
+Special characters:
+	"space"
+	"delete"
+	"enter"
+	"tab"
+	"ctrl"
+	"shift"
+	"alt"
+	"pageup"
+	"pagedown"
+	
+By default key() uses the local keyboard 
+layout. To get the raw output, as if the 
+button was pressed on a US keyboard, 
+set 'raw' as true.

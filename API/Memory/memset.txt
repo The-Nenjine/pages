@@ -1,0 +1,17 @@
+--[[pod_format="raw",created="2024-08-29 20:43:24",modified="2024-09-13 00:34:38",revision=5]]
+> memset(addr, val, len)
+
+Sets a region of memory to a single i8 
+value.
+
+'addr' is the starting address to 
+overwrite.
+
+'val' is the value to write to ram.
+
+'len' is the size of memory to overwrite.
+
+The following fills half of video memory 
+with 0xc8.
+
+> memset(0x10000, 0xc8, 0x10000)

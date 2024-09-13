@@ -1,0 +1,14 @@
+--[[pod_format="raw",created="2024-08-29 20:38:43",modified="2024-08-31 22:34:10",revision=7]]
+> add(tbl, val, [pos])
+
+Adds a value to a given table.
+
+'tbl' is the table to add a value to.
+
+'val' is the value to add to the table.
+
+'pos' is the position to insert the value 
+into. 
+
+If 'pos' is left empty the value will be 
+appended to the end of the table.

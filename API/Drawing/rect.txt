@@ -1,0 +1,5 @@
+--[[pod_format="raw",created="2024-08-29 20:33:50",modified="2024-08-29 21:11:50",revision=2]]
+> rect(x1, y1, x2, y2, [col])
+
+Draws the outline of a rectangle with 
+corners at the given points.

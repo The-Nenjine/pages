@@ -1,0 +1,24 @@
+--[[pod_format="raw",created="2024-08-25 06:45:34",modified="2024-08-29 06:47:21",revision=36]]
+> key(k, [raw])
+
+Returns the state of key 'k'.
+
+The name of each 'k' is the same as the 
+character is produces on a US keyboard, 
+with exceptions of a few keys:
+
+Special characters:
+	"space"
+	"delete"
+	"enter"
+	"tab"
+	"ctrl"
+	"shift"
+	"alt"
+	"pageup"
+	"pagedown"
+	
+By default key() uses the local keyboard 
+layout. To get the raw output, as if the 
+button was pressed on a US keyboard, 
+set 'raw' as true.

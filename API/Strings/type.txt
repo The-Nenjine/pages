@@ -1,0 +1,14 @@
+--[[pod_format="raw",created="2024-08-31 22:21:16",modified="2024-08-31 22:29:07",revision=9]]
+> type(val)
+
+Returns the type of 'val' as a string.
+
+Strings that type can return:
+	integer		"number"
+	string			"string"
+	table			"table"
+	nil				"nil"
+	
+
+--
+N.b. There are others.

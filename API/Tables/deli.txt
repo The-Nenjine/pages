@@ -1,0 +1,13 @@
+--[[pod_format="raw",created="2024-08-29 20:38:55",modified="2024-09-01 05:27:06",revision=3]]
+> deli(tbl, [index])
+
+Deletes value from a table given an index.
+
+Returns the value being deleted.
+
+'tbl' is the table to delete from.
+
+'index' is which index to delete.
+
+If 'index' is not given, the last value in 
+the table is returned and deleted.

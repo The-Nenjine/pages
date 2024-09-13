@@ -1,0 +1,5 @@
+--[[pod_format="raw",created="2024-08-29 20:33:23",modified="2024-08-29 21:06:07",revision=4]]
+> oval(x1, y1, x2, y2, [col])
+
+Draw the outline of a symetrical oval 
+(ellipse) within the given rectangle. 

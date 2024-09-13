@@ -1,0 +1,75 @@
+--[[pod_format="raw",created="2024-08-24 22:45:45",modified="2024-09-11 05:35:35",revision=158]]
+           Welcome to Docs!
+---------------------------------------
+
+			 - Introduction -
+
+Docs has been built so that it can be a
+helpful companion while you code. It is 
+built so that others can add their own 
+files to docs if their app requires 
+documentation.
+
+The Picotron documentation is currently
+being added, and so the current version
+has incomplete information. If you would 
+like to help write the documentation feel 
+free to reach out to me (Hessery) on 
+discord.
+
+Docs may lag if other processes are 
+eating cpu time while on the desktop. 
+I recomend you create the toolbar 
+shortcut for easy access from any 
+workspace. 
+
+
+		 - Creating a shortcut -
+
+There are a few easy ways to add a 
+shortcut to Docs on your system.
+
+	1. Putting Docs in the tool tray.
+	2. Adding Docs to the toolbar.
+	
+
+	1. Putting Docs in the tool tray.
+
+You can add Docs to the tool tray by 
+dragging down the bar at the top of the 
+screen and then drag-n-dropping Docs into 
+the space revealed.
+
+
+	2. Adding Docs to the toolbar.
+
+> Be careful, as this allows you to 
+> modify your /system folder, which is 
+> usually protected from edits!
+
+To create a shortcut on the toolbar:
+1.	load #localsys and follow the prompts 
+	to localise your system
+2.	In /system/wm/wm.lua on ln 3146 put
+	the following:
+	
+> add(item, {"\^:2e2a282424002424 Docs", 
+> function() create_process(
+> "/apps/docs.p64") end})
+
+3. Reboot
+
+
+		- Adding your own docs -
+
+If you want to add documentation to your
+program that can be accessed from Docs,
+from your program, you can copy the 
+files into /appdata/docs/pages.
+
+
+			- Special Thanks -
+	
+Thanks to 369px for making the GUI so 
+beautiful, and to pancelor for helping 
+find and squish bugs.

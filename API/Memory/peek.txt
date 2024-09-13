@@ -1,0 +1,33 @@
+--[[pod_format="raw",created="2024-08-29 20:42:28",modified="2024-09-12 06:30:10",revision=23]]
+> peek(addr, [n])
+> peek2(addr, [n])
+> peek4(addr, [n])
+
+Read a byte (i8) from an address in ram. 
+peek2() will read a i16 and peek4() will 
+read a i32.
+
+'addr' is the address to read.
+
+If 'n' is given, read that number of 
+results.
+
+For example:
+
+> Read the first two bytes of video memory
+> a, b = peek(0x10000, 2)
+
+You can use shorthand for peeking:
+
+> @0x10000 == peek(0x10000)
+> %0x10000 == peek2(0x10000)
+> $0x10000 == peek4(0x10000)
+
+
+--
+N.b.
+Zep's manual suggest that there is a i64 
+version of peek. That could be peek8,
+but due to also naming peek4 and poke4 
+twice as valid functions, there seems to 
+be some confusion on this.

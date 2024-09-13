@@ -1,0 +1,12 @@
+--[[pod_format="raw",created="2024-08-29 20:35:22",modified="2024-08-29 23:13:58",revision=2]]
+> set_spr(index, ud)
+
+Set the data of a given sprite index.
+
+'index' should be between 0 and 16383.
+
+'ud' should be a type u8 2D userdata 
+object.
+
+When a cart is run, files gfx/0..63.gfx 
+are loaded if they exist.

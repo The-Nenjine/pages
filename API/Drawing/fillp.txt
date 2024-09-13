@@ -1,0 +1,51 @@
+--[[pod_format="raw",created="2024-08-29 20:34:59",modified="2024-08-29 22:11:27",revision=17]]
+> fillp(p)
+
+Sets a 4x4 fill pattern.
+
+'p' is a 64bit bitfield in reading order 
+starting form the highest bit.
+
+Fill patterns in Picotron are 64-bit 
+specified 8 bytes from 0x5500, where 
+each byte is a row (top to bottom) and 
+the low bit is on the left. To define an 
+8x8 with high bits on the right (so that 
+binary numbers visually match), fillp can 
+be called with 8 arguments:
+
+> fillp(
+>   0b10000000,
+>   0b01011110,
+>   0b00101110,
+>   0b00010110,
+>   0b00001010,
+>   0b00000100,
+>   0b00000010,
+>   0b00000001
+> )
+> circfill(240,135,50,9)
+
+Fillp is observed by the following 
+functions:
+
+> circ()
+> circfill()
+> rect()
+> rectfill()
+> oval()
+> ovalfill()
+> pset()
+> line()
+
+When using a fill pattern, colour 
+arguments can for the above can be a 
+bitfield specifying two different colours.
+
+To get transparency while drawing shapes, 
+the shape target mask should be set:
+
+> poke(0x550b,0x3f)
+> palt()
+
+The above stops black pixels being drawn.

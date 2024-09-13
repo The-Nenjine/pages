@@ -1,0 +1,12 @@
+--[[pod_format="raw",created="2024-09-12 06:08:36",modified="2024-09-12 06:10:12",revision=2]]
+> vid(mode)
+
+Sets the fullscreen video mode.
+
+'mode' is an integer.
+
+Currently supported modes:
+
+	0		480 x 270
+	1		240 x 135
+	2		160 x 90

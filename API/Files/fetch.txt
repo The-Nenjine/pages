@@ -1,0 +1,19 @@
+--[[pod_format="raw",created="2024-08-24 20:07:03",modified="2024-08-29 06:49:40",revision=133]]
+> fetch(path)
+
+Return a lua object stored in a given 
+file. Returns the object and metadata.
+
+'path' can be a relative or absolute 
+path to a local file, or it can be a web 
+address to download from the internet.
+
+Web addresses will cache their response
+for each session, so that repeated 
+fetches of the same url will result in 
+the same output even if the file 
+returned by the server is the same.
+
+--
+N.b. Is the string length limit still 128 
+chars?

@@ -1,0 +1,26 @@
+--[[pod_format="raw",created="2024-08-29 20:40:12",modified="2024-09-04 21:32:23",revision=15]]
+> mkdir(path)
+
+Creates a directory given a specified 
+path.
+
+Generally a cart would store it's 
+persistent files in /appdata/'cart name',
+so the first time a cart is run it would 
+need to create the directory before 
+storing files in it.
+
+The following code will check to see if 
+the folder has been created in /appdata, 
+and then will create it if it doesn't 
+exist.
+
+> if fstat("appdata/game") == nil then
+>    mkdir("appdata/game")
+> end
+
+
+--
+N.b.
+Include some notes here on cart 
+sandboxing.

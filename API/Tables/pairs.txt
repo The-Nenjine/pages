@@ -1,0 +1,16 @@
+--[[pod_format="raw",created="2024-08-29 20:39:15",modified="2024-09-01 06:59:36",revision=10]]
+> pairs(tbl)
+
+Used in for loops to iterate over 'tbl', 
+providing both key and value for each 
+item.
+
+Use pairs in this way:
+
+> for key, value in pairs(tbl) do
+
+'tbl' is a table.
+
+Unlike all, pairs iterates over every item 
+regardless of indexing scheme. Order is 
+not guaranteed.

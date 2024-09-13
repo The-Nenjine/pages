@@ -1,0 +1,7 @@
+--[[pod_format="raw",created="2024-08-29 20:32:44",modified="2024-08-29 21:00:22",revision=3]]
+> cls([col])
+
+Resets the clipping rectangle and draws a 
+colour over the entire screen.
+
+'col' defaults to 0.

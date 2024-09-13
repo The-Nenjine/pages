@@ -1,0 +1,13 @@
+--[[pod_format="raw",created="2024-08-24 22:35:05",modified="2024-08-29 06:52:07",revision=86]]
+> clip(x, y, w, h, [clip_previous])
+
+Sets the clipping rectangle in pixels. all 
+drawing operations will be clipped to 
+the rectangle at 'x', 'y' with a width 
+and height of 'w', 'h'.
+
+Reset the cliping region by calling the
+function without any arguments.
+
+when 'clip_previous' is true, clip the 
+new clipping region by the old one.

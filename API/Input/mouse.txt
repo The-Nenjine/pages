@@ -1,0 +1,9 @@
+--[[pod_format="raw",created="2024-08-25 05:07:22",modified="2024-08-29 06:46:03",revision=24]]
+> mouse()
+
+Returns mouse_x, mouse_y, mouse_b, 
+wheel_x, wheel_y.
+
+mouse_b is a bitfield: 
+	0x1 - Left mouse button
+	0x2 - Right mouse button 

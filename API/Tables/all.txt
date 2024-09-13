@@ -1,0 +1,19 @@
+--[[pod_format="raw",created="2024-08-29 20:39:04",modified="2024-09-01 07:00:35",revision=7]]
+> all(tbl)
+
+Used in for loops to iterate over all 
+items in a table, as long as all items 
+are indexed sequentially.
+
+Instead of 'i' being the index of the 
+table as it would be in doing this:
+
+> for i = 1, #tbl do
+
+'i' becomes the value stored at that 
+index in the table, like this:
+
+> tbl = {1, 2, 3, 4}
+> for i in all(tbl) do
+>    print(i)
+> end

@@ -1,0 +1,21 @@
+--[[pod_format="raw",created="2024-09-11 06:53:50",modified="2024-09-11 06:55:56",revision=12]]
+> date(format, [t], [delta])
+
+Returns the current day and time 
+formatted using Lua's standard date 
+strings.
+
+'format' specifies the output string 
+format, and defaults to 
+"!%Y-%m-%d %H:%M:%S" (UTC) when not 
+given. Picotron timestamps stored in file 
+metadata are stored in this format.
+
+'t' specifies the moment in time to be 
+encoded as a string, and can be either an 
+integer (epoch timestamp) or a string 
+indicating UTC in the format: 
+"!%Y-%m-%d %H:%M:%S". When t is not 
+given, the current time is used.
+
+delta: number of seconds to add to t.

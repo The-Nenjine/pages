@@ -1,0 +1,10 @@
+--[[pod_format="raw",created="2024-08-30 08:01:34",modified="2024-08-30 08:09:02",revision=8]]
+> chr(val1, val2, ...)
+
+Convert one or more ordianl character 
+codes to a string.
+
+
+-- 
+N.b. Where can we link to a list of the 
+ordianl character codes? 0..255

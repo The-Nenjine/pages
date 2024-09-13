@@ -1,0 +1,5 @@
+--[[pod_format="raw",created="2024-08-29 20:33:58",modified="2024-08-29 21:12:17",revision=2]]
+> rectfill(x1, y1, x2, y2, [col])
+
+Draws a solid rectangle with corners at 
+the given points.
