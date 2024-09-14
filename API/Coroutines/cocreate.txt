@@ -1,4 +1,7 @@
---[[pod_format="raw",created="2024-09-13 20:28:48",modified="2024-09-13 20:30:15",revision=1]]
+--[[pod_format="raw",created="2024-09-13 20:28:48",modified="2024-09-14 20:58:16",revision=3]]
 > cocreate(func)
 
-Creates a coroutine that can later be called.
+Creates a coroutine that can later be 
+called.
+
+Returns a thread.

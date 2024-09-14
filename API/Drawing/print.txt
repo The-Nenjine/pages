@@ -1,10 +1,10 @@
---[[pod_format="raw",created="2024-08-29 20:28:49",modified="2024-08-29 20:57:05",revision=8]]
+--[[pod_format="raw",created="2024-08-29 20:28:49",modified="2024-09-14 21:13:42",revision=10]]
 > print(str, [x, y, [col]])
 
 Prints 'str' to the screen and optionally 
 sets the draw colour.
 
-Retruns the right most x position that
+Returns the right most x position that
 occurred while printing.
 
 When x, y are not specified, a newline is 

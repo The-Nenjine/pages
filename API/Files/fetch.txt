@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-24 20:07:03",modified="2024-08-29 06:49:40",revision=133]]
+--[[pod_format="raw",created="2024-08-24 20:07:03",modified="2024-09-13 23:46:03",revision=134]]
 > fetch(path)
 
 Return a lua object stored in a given 
@@ -15,5 +15,8 @@ the same output even if the file
 returned by the server is the same.
 
 --
-N.b. Is the string length limit still 128 
+N.b. 
+Is the string length limit still 128 
 chars?
+Fetch sometimes returns false, in what 
+cases?

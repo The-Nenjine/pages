@@ -1,0 +1,16 @@
+--[[pod_format="raw",created="2024-09-14 20:51:32",modified="2024-09-14 20:57:43",revision=13]]
+Coroutines are functions that can be 
+interupted and resumed at will. 
+
+A greate example of why you would want 
+to use a coroutine is fetch(). Usually 
+fetch() make the entire program wait 
+while it recieves data. This can make the 
+program appear to hang if the server 
+takes a while to respond, or if the file 
+is rather large. If you put fetch() in a 
+coroutine, when it is called, it will 
+yeild(), allowing your program to 
+continue running, and allows you to come 
+back and collect the data returned at a 
+later time.
