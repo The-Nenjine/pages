@@ -1,1 +1,22 @@
---[[pod_format="raw",created="2024-09-14 21:17:46",modified="2024-09-14 21:17:56",revision=1]]
+--[[pod_format="raw",created="2024-09-14 21:17:46",modified="2024-09-14 21:39:39",revision=9]]
+> create_process(path, env)
+
+Creates a new process.
+
+Returns the new process' process id.
+
+'path' is the path to the .lua file to 
+run.
+
+'env' is a table to patch into the new 
+process' environment table.
+
+See env() for what keys are used by
+Picotron in the default environment table.
+
+
+--
+N.b.
+In /system/lib/head.lua a third arguement 
+called 'do_debug' is shown, but never 
+used.
