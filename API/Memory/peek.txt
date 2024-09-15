@@ -1,11 +1,12 @@
---[[pod_format="raw",created="2024-08-29 20:42:28",modified="2024-09-12 06:30:10",revision=23]]
+--[[pod_format="raw",created="2024-08-29 20:42:28",modified="2024-09-15 07:08:10",revision=25]]
 > peek(addr, [n])
 > peek2(addr, [n])
 > peek4(addr, [n])
+> peek8(addr, [n])
 
 Read a byte (i8) from an address in ram. 
-peek2() will read a i16 and peek4() will 
-read a i32.
+peek2() will read an i16, peek4() will 
+read an i32 and peek8() will read an i64.
 
 'addr' is the address to read.
 
@@ -26,8 +27,4 @@ You can use shorthand for peeking:
 
 --
 N.b.
-Zep's manual suggest that there is a i64 
-version of peek. That could be peek8,
-but due to also naming peek4 and poke4 
-twice as valid functions, there seems to 
-be some confusion on this.
+Is there shorthand for peek8()?

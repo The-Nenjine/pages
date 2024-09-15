@@ -1,0 +1,48 @@
+--[[pod_format="raw",created="2024-09-15 07:10:41",modified="2024-09-15 07:28:57",revision=22]]
+> collectgarbage(method, var)
+
+A function for interacting with lua's 
+built-in memory management system. It is 
+on by default.
+
+The garbage collector may return a value.
+
+'method' should be one of the following:
+
+	"collect"
+Runs one complete garbage collection 
+cycle.
+
+	"count"
+Returns the amount of memory currently 
+used.
+
+	"restart"
+Restarts the garbage collector if it has 
+been stopped.
+
+	"setpause"
+Changes the time to elapse between 
+collection cycles to 'var'. Defaults to 1.
+
+	"setstepmul"
+Changes the speed of the garbage 
+collector compared to that of memory 
+allocation to 'var'. Defaults to 2.
+
+	"step"
+Runs one step of garbage collection. 
+'var' is the step size. Returns true if 
+the step was the last step of a garbage 
+collection cycle.
+
+	"stop"
+Stops the garbage collector if it is 
+running.
+
+
+--
+N.b.
+Typically "count" returns as kilobytes, 
+but it may be that it returns bytes in 
+Picotron.

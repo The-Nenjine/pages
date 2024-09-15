@@ -1,7 +1,8 @@
---[[pod_format="raw",created="2024-08-29 20:42:33",modified="2024-09-13 00:26:02",revision=15]]
+--[[pod_format="raw",created="2024-08-29 20:42:33",modified="2024-09-15 07:06:53",revision=16]]
 > poke(addr, val, ...)
 > poke2(addr, val, ...)
 > poke4(addr, val, ...)
+> poke8(addr, val, ...)
 
 Write one or more bytes to an address in 
 base ram. If more than one value is 
@@ -15,6 +16,7 @@ writing at.
 poke() writes i8 values to ram.
 poke2() writes i16 values to ram
 poke4() writes i32 values to ram.
+poke4() writes i64 values to ram.
 
 
 --
@@ -22,9 +24,3 @@ N.b.
 What is base ram? Zep's Manual entry for 
 peek doesn't specificy peeking at base 
 ram, just ram.
-
-Zep's manual suggest that there is a i64 
-version of poke. That could be poke8,
-but due to also naming peek4 and poke4 
-twice as valid functions, there seems to 
-be some confusion on this.
