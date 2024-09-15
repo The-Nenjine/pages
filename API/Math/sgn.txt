@@ -1,0 +1,11 @@
+--[[pod_format="raw",created="2024-09-15 06:49:36",modified="2024-09-15 06:53:14",revision=4]]
+> sgn(int)
+
+Signs a number.
+
+Returns a 1, 0 or -1, depending on if a 
+positive, zero or negative number is 
+given.
+
+'int' should be a number. If not, 0 is 
+returned.

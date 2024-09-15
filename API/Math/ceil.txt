@@ -1,0 +1,11 @@
+--[[pod_format="raw",created="2024-09-15 06:56:27",modified="2024-09-15 07:00:56",revision=11]]
+> ceil(int)
+
+Rounds a number up to the nearest whole 
+number.
+
+'int' should be a number.
+
+Unlike regular rounding, ceil() will round 
+up from any decimal place, including .1 
+and other lower than .5 decimal places.

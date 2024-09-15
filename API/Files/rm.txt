@@ -1,10 +1,10 @@
---[[pod_format="raw",created="2024-08-29 20:40:31",modified="2024-09-11 05:50:04",revision=4]]
+--[[pod_format="raw",created="2024-08-29 20:40:31",modified="2024-09-14 21:48:47",revision=5]]
 > rm(path)
 
 Deletes a file or folder.
 
-When deleting a folder, their contents 
-are also deleted.
+When deleting a folder, is contents 
+are recursively  deleted.
 
 If a mount point is deleted the contents 
 of the origin folder are not deleted, 

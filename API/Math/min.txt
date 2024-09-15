@@ -1,0 +1,8 @@
+--[[pod_format="raw",created="2024-09-15 06:55:31",modified="2024-09-15 06:55:38",revision=1]]
+> min(a, b)
+
+Returns the smaller number, 'a' or 'b'.
+
+Both 'a' and 'b' are should be numbers. 
+If either one is not, it will be compared 
+as if it were 0.

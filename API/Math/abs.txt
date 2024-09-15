@@ -1,0 +1,14 @@
+--[[pod_format="raw",created="2024-09-15 06:43:15",modified="2024-09-15 06:49:23",revision=18]]
+> abs(int)
+
+Makes numbers absolute. 
+
+If the number given is already positive, 
+then it returns the number given. If the 
+number given is negative, the number 
+given is made positive and then returned.
+
+Returns a positive number.
+
+'int' should be a number. If not, 0 is 
+returned.

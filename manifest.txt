@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-13 06:31:55",modified="2024-09-14 21:42:38",revision=12]]
+--[[pod_format="raw",created="2024-09-13 06:31:55",modified="2024-09-15 07:04:26",revision=13]]
 1
 Welcome.txt
 > API
@@ -59,6 +59,13 @@ API/Map/map.txt
 API/Map/mget.txt
 API/Map/mset.txt
 API/Map/tline3d.txt
+> API/Math
+API/Math/abs.txt
+API/Math/ceil.txt
+API/Math/floor.txt
+API/Math/max.txt
+API/Math/min.txt
+API/Math/sgn.txt
 > API/Memory
 API/Memory/memcpy.txt
 API/Memory/memset.txt
