@@ -1,0 +1,4 @@
+--[[pod_format="raw",created="2024-09-18 06:10:05",modified="2024-09-18 06:10:34",revision=2]]
+Run this code to snap desktop icons to a grid.
+
+> store("/appdata/system/filenav.pod", {snap_to_grid=true})
