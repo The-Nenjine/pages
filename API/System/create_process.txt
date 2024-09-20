@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-14 21:17:46",modified="2024-09-14 21:39:39",revision=9]]
+--[[pod_format="raw",created="2024-09-14 21:17:46",modified="2024-09-20 02:34:03",revision=12]]
 > create_process(path, env)
 
 Creates a new process.
@@ -14,6 +14,9 @@ process' environment table.
 See env() for what keys are used by
 Picotron in the default environment table.
 
+The process id returned can be used by 
+send_message() for cross process 
+communication.
 
 --
 N.b.

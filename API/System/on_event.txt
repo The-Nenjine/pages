@@ -1,0 +1,29 @@
+--[[pod_format="raw",created="2024-09-20 02:23:46",modified="2024-09-20 02:51:07",revision=20]]
+> on_event(event, func)
+
+Creates a listener that runs a function 
+when the given event is triggered. See 
+send_message().
+
+'event' is a string that identifies when 
+the function should be called.
+
+'func' is the function to call. The 
+function will recieve a single argument 
+of data that the event is called with. 
+Usually this is expected to be a table.
+
+The following shows how a procress could 
+create a child process and process data 
+it sends back:
+
+> child_window = create_process(
+> 	"popup.lua", 
+> 	{parent_window = pid()}
+> )
+> 
+> on_event("spacePressed", function(msg)
+> 	if msg.selection then 
+> 		notify("Selection is true") 
+> 	end
+> end)

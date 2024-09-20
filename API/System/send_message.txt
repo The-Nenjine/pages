@@ -1,0 +1,29 @@
+--[[pod_format="raw",created="2024-09-20 02:33:04",modified="2024-09-20 02:45:43",revision=15]]
+> send_message(pid, data)
+
+Sends an event to a specified process. 
+See on_event() for how to recieve these 
+messages.
+
+'pid' is the process id to which we are 
+sending the data.
+
+'data' is a table, which contains the 
+data that the process should recieve and 
+the event that the data should be 
+processed on.
+
+The following shows how a popup window 
+could send data back to the parent 
+window:
+
+> parent_window = env().parent_window
+> 
+> function _update()
+> 	if keyp("space") then
+> 		send_message(parent_window, {
+> 			event = "spacePressed",
+> 			selection = true
+> 		})
+> 	end
+> end

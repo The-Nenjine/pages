@@ -1,0 +1,14 @@
+--[[pod_format="raw",created="2024-09-20 02:12:19",modified="2024-09-20 02:16:35",revision=3]]
+> store_metadata(path, data)
+
+Stores metadata in a file or a directory.
+
+'path' is the path to the file or 
+directory.
+
+'data' is the data to store, and is 
+expected to be a table.
+
+Sometimes editing the metadata of a file 
+can be quicker than storing the file 
+again.

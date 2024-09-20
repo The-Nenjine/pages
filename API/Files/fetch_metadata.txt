@@ -1,0 +1,16 @@
+--[[pod_format="raw",created="2024-09-20 02:17:03",modified="2024-09-20 02:22:49",revision=8]]
+> fetch_metadata(path)
+
+Returns the metadata of a file or 
+directory. Expect that this should be a 
+table, but it is not guranteed.
+
+'path' is the path to the file or 
+directory.
+
+The metadata of a file or folder usually 
+has the following by default:
+
+- created
+- modified
+- revision
