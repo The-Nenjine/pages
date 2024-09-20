@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-24 22:45:45",modified="2024-09-14 11:14:44",revision=162]]
+--[[pod_format="raw",created="2024-08-24 22:45:45",modified="2024-09-20 02:11:12",revision=163]]
            Welcome to Docs!
 ---------------------------------------
 
@@ -53,7 +53,7 @@ To create a shortcut on the toolbar:
 2.	In /system/wm/wm.lua on ln 3146 put
 	the following:
 	
-> add(item, {"\^:2e2a282424002424 Docs", 
+> add(item, {"\^:0202db5bdb00ff00 Docs", 
 > function() create_process(
 > "/apps/docs.p64") end})
 
