@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-25 06:53:43",modified="2024-08-29 06:46:45",revision=13]]
+--[[pod_format="raw",created="2024-08-25 06:53:43",modified="2024-09-28 05:55:13",revision=15]]
 > keyp(k, [raw])
 
 Returns if the key 'k' has been pressed
@@ -19,7 +19,7 @@ Special characters:
 	"pageup"
 	"pagedown"
 	
-By default key() uses the local keyboard 
+By default f(key()) uses the local keyboard 
 layout. To get the raw output, as if the 
 button was pressed on a US keyboard, 
 set 'raw' as true.

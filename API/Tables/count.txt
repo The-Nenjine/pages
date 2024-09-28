@@ -1,5 +1,5 @@
---[[pod_format="raw",created="2024-08-29 20:39:00",modified="2024-09-26 05:33:59",revision=3]]
-> count(tbl, val)
+--[[pod_format="raw",created="2024-08-29 20:39:00",modified="2024-09-01 06:35:44",revision=2]]
+> count(tbl, 'val')
 
 Counts the number of instances of a value in the table.
 

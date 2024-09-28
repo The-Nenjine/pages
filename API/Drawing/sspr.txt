@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-29 20:34:52",modified="2024-08-29 23:08:49",revision=22]]
+--[[pod_format="raw",created="2024-08-29 20:34:52",modified="2024-09-28 03:57:31",revision=28]]
 > sspr(s, sx, sy, sw, sh, dx, dy, 
 >  [dw, dh], [h_flip], [v_flip])
 
@@ -13,10 +13,11 @@ corner, with a width of 'w', 'h'.
 's' can be either a userdata (type "u8") 
 or the sprite index.
 
-Colour 0 drawn as transparent by default 
-(see palt())
-
 'dw', 'dh' defaults to 'sw', 'sh'.
 
 When 'h_flip' is true, flip horizontally. 
 When 'v_flip' is true, flip vertically.
+
+Colour 0 drawn as transparent by default. 
+See f(palt()) for how to change which 
+colours are transparent.

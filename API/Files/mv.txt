@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-29 20:40:26",modified="2024-09-11 05:47:55",revision=2]]
+--[[pod_format="raw",created="2024-08-29 20:40:26",modified="2024-09-28 04:24:38",revision=4]]
 > mv(src, dest)
 
 Moves a file from 'src' to 'dest'.
@@ -8,6 +8,6 @@ contents).
 
 If 'dest' exists, it is over written.
 
-See pwd() for more infomation on how 
+See f(pwd()) for more infomation on how 
 paths are formatted to be relative or 
 absolute.

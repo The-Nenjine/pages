@@ -1,7 +1,12 @@
---[[pod_format="raw",created="2024-08-25 07:00:06",modified="2024-08-29 06:48:54",revision=44]]
+--[[pod_format="raw",created="2024-08-25 07:00:06",modified="2024-09-28 05:51:55",revision=46]]
 > store(path, obj, [metadata])
 
 Stores a lua object as a file.
+
+'path' is the path to where the file is to 
+be stored.
+
+'obj' is the object to be stored.
 
 When storing data that should persist
 between launches, the data should be

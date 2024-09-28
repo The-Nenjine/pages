@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-29 20:40:42",modified="2024-09-11 06:01:00",revision=8]]
+--[[pod_format="raw",created="2024-08-29 20:40:42",modified="2024-09-28 07:13:23",revision=10]]
 > cd(path)
 
 Changes the present working directory.
@@ -7,6 +7,6 @@ Calling cd() without a path will not
 change the present working directory, 
 but will not cause a crash either.
 
-See pwd() for more infomation on how 
+See f(pwd()) for more infomation on how 
 paths are formatted to be relative or 
 absolute.

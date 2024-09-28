@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-29 20:28:49",modified="2024-09-14 21:13:42",revision=10]]
+--[[pod_format="raw",created="2024-08-29 20:28:49",modified="2024-09-28 03:52:30",revision=11]]
 > print(str, [x, y, [col]])
 
 Prints 'str' to the screen and optionally 
@@ -7,7 +7,7 @@ sets the draw colour.
 Returns the right most x position that
 occurred while printing.
 
-When x, y are not specified, a newline is 
+When 'x', 'y' are not specified, a newline is 
 automatically appended. If called to the
 console, printing below y 122 will cause
 the console to scroll. This can be 

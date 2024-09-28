@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-09-20 02:33:04",modified="2024-09-20 02:45:43",revision=15]]
+--[[pod_format="raw",created="2024-09-20 02:33:04",modified="2024-09-28 11:26:10",revision=19]]
 > send_message(pid, data)
 
 Sends an event to a specified process. 

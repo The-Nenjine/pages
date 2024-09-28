@@ -1,13 +1,13 @@
---[[pod_format="raw",created="2024-08-29 20:41:03",modified="2024-09-11 06:29:24",revision=8]]
+--[[pod_format="raw",created="2024-08-29 20:41:03",modified="2024-09-28 04:22:49",revision=10]]
 > include(path)
 
-Loads and runs a lua file.
+Loads and runs a lua file, given a 'path'.
 
-See pwd() for more infomation on how 
+See f(pwd()) for more infomation on how 
 paths are formatted to be relative or 
 absolute.
 
-Unlike pico8's #include, include() is a 
+Unlike pico8's #include, f(include()) is a 
 regular function that is called at 
 runtime. 
 

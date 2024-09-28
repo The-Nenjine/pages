@@ -1,11 +1,11 @@
---[[pod_format="raw",created="2024-08-29 20:40:12",modified="2024-09-04 21:32:23",revision=15]]
+--[[pod_format="raw",created="2024-08-29 20:40:12",modified="2024-09-28 04:24:08",revision=19]]
 > mkdir(path)
 
 Creates a directory given a specified 
-path.
+'path'.
 
 Generally a cart would store it's 
-persistent files in /appdata/'cart name',
+persistent files in /appdata/<cart name>,
 so the first time a cart is run it would 
 need to create the directory before 
 storing files in it.

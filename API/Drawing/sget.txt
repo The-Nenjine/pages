@@ -1,7 +1,7 @@
---[[pod_format="raw",created="2024-08-25 01:38:17",modified="2024-08-29 06:50:26",revision=11]]
+--[[pod_format="raw",created="2024-08-25 01:38:17",modified="2024-09-28 03:54:13",revision=12]]
 > sget(x, y)
 
 Set the colour of a sprite sheet pixel.
 
-When x and y are out of bounds sget 
+When 'x' and 'y' are out of bounds sget 
 returns 0.

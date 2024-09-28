@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-29 20:40:53",modified="2024-09-11 06:15:50",revision=16]]
+--[[pod_format="raw",created="2024-08-29 20:40:53",modified="2024-09-28 04:04:56",revision=18]]
 > fstat(path)
 
 Finds data about a file system object.
@@ -19,7 +19,7 @@ Will print:
 > folder
 > 0
 
-See pwd() for more infomation on how 
+See f(pwd()) for more infomation on how 
 paths are formatted to be relative or 
 absolute.
 

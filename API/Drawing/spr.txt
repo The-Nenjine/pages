@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-29 20:34:42",modified="2024-08-29 21:37:50",revision=9]]
+--[[pod_format="raw",created="2024-08-29 20:34:42",modified="2024-09-28 03:57:49",revision=11]]
 > spr(s, x, y, [h_flip], [v_flip])
 
 Draws sprite 's' at 'x', 'y'.
@@ -14,4 +14,6 @@ other gfx files. I.e.
 'h_flip' flips the sprite horizontally.
 'v_flip' flips the sprite vertically.
 
-Colour 0 is drawn as transparent by default.
+Colour 0 drawn as transparent by default. 
+See f(palt()) for how to change which 
+colours are transparent.

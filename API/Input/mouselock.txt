@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-25 07:07:41",modified="2024-08-29 06:45:37",revision=90]]
+--[[pod_format="raw",created="2024-08-25 07:07:41",modified="2024-09-28 06:00:24",revision=91]]
 > mouselock(lock, event_sens, move_sens)
 
 Returns 'x' and 'y', the relative 
@@ -10,10 +10,10 @@ request to the host OS's window manager
 to capture and control the mouse's 
 sensitivity and movement speed.
 
-event_sens is a number, 0..4 that 
+'event_sens' is a number, 0..4 that 
 multiplies how far the mouse has moved, 
 per Picotron pixel.
 
-move_sens is a number between 0..4, 1 
+'move_sens' is a number between 0..4, 1 
 meaning the mouse continues to move at 
 the same speed.

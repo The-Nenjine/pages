@@ -1,8 +1,11 @@
---[[pod_format="raw",created="2024-08-24 22:41:45",modified="2024-08-29 06:50:43",revision=49]]
+--[[pod_format="raw",created="2024-08-24 22:41:45",modified="2024-09-28 03:53:39",revision=50]]
 > pset(x, y, [col])
 
-Sets the pixel at x, y to colour index 
-col (0..63).
+Sets the pixel at 'x', 'y' to colour index 
+'col'. 
 
-When col is not specified, the current 
+'col' is expected to be a number betwen 0
+and 63.
+
+When 'col' is not specified, the current 
 draw colour is used.

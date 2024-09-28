@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-24 22:45:45",modified="2024-09-20 02:11:12",revision=163]]
+--[[pod_format="raw",created="2024-08-24 22:45:45",modified="2024-09-28 11:48:41",revision=173]]
            Welcome to Docs!
 ---------------------------------------
 
@@ -62,23 +62,33 @@ To create a shortcut on the toolbar:
 
 		- Adding your own docs -
 
-There are two ways to add your own documentation to docs:
+There are two ways to add your own 
+documentation to docs:
 
 	1. Install option from your cart.
 	2. Source addition.
 
 	1. Install option from your cart.
 
-Copy pages from somewhere in your cart into /appdata/docs/pages.
+Copy pages from somewhere in your cart 
+into /appdata/docs/pages.
 
 
 	2. Source addition.
 	
-Users can add sources from settings. You can supply a url that points to a location on a webserver where can be found a manifest.txt and files etc etc
+Users can add sources from settings. You 
+can supply a url that points to a 
+location on a webserver where can be 
+found a manifest.txt and files etc etc
 
 
 			- Special Thanks -
 	
-Thanks to 369px for making the GUI so 
-beautiful, and to pancelor for helping 
-find and squish bugs.
+Thanks to the following champions:
+
+ - 369px for making the GUI so beautiful.
+
+ - pancelor for helping find and squish 
+   bugs.
+ 
+ - avi for getting colours working.

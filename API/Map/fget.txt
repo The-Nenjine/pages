@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-25 01:42:32",modified="2024-08-29 06:43:26",revision=47]]
+--[[pod_format="raw",created="2024-08-25 01:42:32",modified="2024-09-28 06:49:36",revision=51]]
 > fget(n, [f])
 
 Returns the value of 'n' sprite's 'f' 
