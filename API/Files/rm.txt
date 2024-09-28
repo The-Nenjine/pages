@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-29 20:40:31",modified="2024-09-28 04:25:51",revision=6]]
+--[[pod_format="raw",created="2024-08-29 20:40:31",modified="2024-09-28 21:32:31",revision=7]]
 > rm(path)
 
 Deletes a file or folder.
@@ -10,6 +10,6 @@ If a mount point is deleted the contents
 of the origin folder are not deleted, 
 unless explicitly deleted.
 
-See f(pwd()) for more infomation on how 
+See pwd() for more infomation on how 
 paths are formatted to be relative or 
 absolute.

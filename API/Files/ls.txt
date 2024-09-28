@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-29 20:40:16",modified="2024-09-28 04:22:20",revision=8]]
+--[[pod_format="raw",created="2024-08-29 20:40:16",modified="2024-09-28 21:32:07",revision=9]]
 > ls([path])
 
 Lists the files and folders in a given 
@@ -6,6 +6,6 @@ Lists the files and folders in a given
 
 Returns a table of strings.
 
-See f(pwd()) for more infomation on how 
+See pwd() for more infomation on how 
 paths are formatted to be relative or 
 absolute.

@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-29 20:40:20",modified="2024-09-28 03:58:52",revision=7]]
+--[[pod_format="raw",created="2024-08-29 20:40:20",modified="2024-09-28 21:31:27",revision=8]]
 > cp(src, dest)
 
 Copies a file or folder from 'src' to 
@@ -7,6 +7,6 @@ Copies a file or folder from 'src' to
 Folders are copied recursively, and 
 'dest' is clobbered.
 
-See f(pwd()) for more infomation on how 
+See pwd() for more infomation on how 
 paths are formatted to be relative or 
 absolute.
