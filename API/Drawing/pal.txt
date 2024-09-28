@@ -1,7 +1,7 @@
---[[pod_format="raw",created="2024-08-29 20:34:04",modified="2024-08-29 21:19:38",revision=6]]
+--[[pod_format="raw",created="2024-08-29 20:34:04",modified="2024-09-28 03:48:52",revision=7]]
 > pal(c1, c2, [p])
 
-Swaps c1 for c2 on a given palette.
+Swaps 'c1' for 'c2' on a given palette.
 
 'p' defaults to 0.
 

@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-24 22:35:05",modified="2024-08-29 06:52:07",revision=86]]
+--[[pod_format="raw",created="2024-08-24 22:35:05",modified="2024-09-28 03:47:34",revision=87]]
 > clip(x, y, w, h, [clip_previous])
 
 Sets the clipping rectangle in pixels. all 
@@ -9,5 +9,5 @@ and height of 'w', 'h'.
 Reset the cliping region by calling the
 function without any arguments.
 
-when 'clip_previous' is true, clip the 
+When 'clip_previous' is true, clip the 
 new clipping region by the old one.
