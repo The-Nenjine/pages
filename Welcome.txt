@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-24 22:45:45",modified="2024-09-28 21:36:30",revision=174]]
+--[[pod_format="raw",created="2024-08-24 22:45:45",modified="2026-02-11 03:26:14",revision=176]]
            Welcome to Docs!
 ---------------------------------------
 
@@ -50,8 +50,8 @@ the space revealed.
 To create a shortcut on the toolbar:
 1.	load #localsys and follow the prompts 
 	to localise your system
-2.	In /system/wm/wm.lua on ln 3146 put
-	the following:
+2.	In /system/wm/picotron_menu.lua on ln 
+   125 put the following:
 	
 > add(item, {"\^:0202db5bdb00ff00 Docs", 
 > function() create_process(
