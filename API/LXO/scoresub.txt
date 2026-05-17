@@ -1,0 +1,7 @@
+--[[pod_format="raw",created="2026-05-17 01:42:44",modified="2026-05-17 01:48:04",revision=2]]
+> scoresub(table_name, [score], [extra])
+
+Submits a score (if one is given) and 
+returns a table of upto 64 scores.
+
+ 

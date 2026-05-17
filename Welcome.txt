@@ -1,4 +1,4 @@
---[[pod_format="raw",created="2024-08-24 22:45:45",modified="2026-02-11 03:26:14",revision=176]]
+--[[pod_format="raw",created="2024-08-24 22:45:45",modified="2026-05-16 21:46:54",revision=177]]
            Welcome to Docs!
 ---------------------------------------
 
@@ -46,6 +46,10 @@ the space revealed.
 > Be careful, as this allows you to 
 > modify your /system folder, which is 
 > usually protected from edits!
+
+> #localsys currently moves you from
+> the regular scoreboard system to
+> the cheaters scoreboard system.
 
 To create a shortcut on the toolbar:
 1.	load #localsys and follow the prompts 
